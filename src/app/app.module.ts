@@ -13,16 +13,16 @@ import { ErrorComponent } from './error/error.component';
 @NgModule({
   declarations: [
     AppComponent,
-	ServerComponent,
-	ServersComponent,
-	WarningComponent,
-	SuccessComponent,
-	ErrorComponent
+	  ServerComponent,
+	  ServersComponent,
+	  WarningComponent,
+	  SuccessComponent,
+	  ErrorComponent
   ],
   imports: [
     BrowserModule,
-	FormsModule,
-	HttpModule
+	  FormsModule,
+	  HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
